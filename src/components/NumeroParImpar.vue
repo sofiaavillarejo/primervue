@@ -2,7 +2,7 @@
   <div>
     <h1>Número Par o Impar</h1>
     <h2 style="color: fuchsia">
-      Doble: {{ $filters.getNumeroDoble(num) }}
+      Doble: {{ $filters.getNumeroDoble(numero) }}
     </h2>
     <label>Introduce un número</label>
     <input type="number" v-model="numero"/>
